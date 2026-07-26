@@ -30,9 +30,6 @@ const SolutionList: React.FC = () => {
 
   return (
     <>
-      <h2 className="text-primary font-serif text-[40px] md:text-[64px] leading-[54px] w-full p-8 text-center">
-        Our service lines
-      </h2>
       {solutions.map(solution => <SolutionListItem key={solution.system.id} solution={solution} />)}
     </>
   );

@@ -16,7 +16,6 @@ import FeaturedContent from "../components/FeaturedContent";
 import KontentComponentErrorMessage from "../components/KontentComponentErrorMessage";
 import Layout from "../components/Layout";
 import { landingPageLink } from "../constants/links";
-import SolutionList from "../components/SolutionListItem";
 import { Link } from "react-router-dom";
 
 const LandingPage: FC = () => {
@@ -120,9 +119,6 @@ const LandingPage: FC = () => {
             </div>
           </PageSection>
         )}
-        <PageSection color="bg-white">
-          <SolutionList />
-        </PageSection>
         <RenderElement
           element={landingPage.data.elements.body_copy}
           elementCodename="body_copy"
