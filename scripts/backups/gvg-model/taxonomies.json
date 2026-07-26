@@ -1,0 +1,106 @@
+[
+  {
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "id": "54519543-3e87-541d-a060-1246d721db5e",
+    "name": "Event Format",
+    "codename": "event_format",
+    "external_id": "event_format",
+    "terms": [
+      {
+        "id": "922336e0-b82a-5589-ae5d-8a3bb426ad9a",
+        "name": "Briefing",
+        "codename": "briefing",
+        "external_id": "event_format_briefing",
+        "terms": []
+      },
+      {
+        "id": "3b9e5257-cdbb-50ad-85be-0e8986745cdf",
+        "name": "Webinar",
+        "codename": "webinar",
+        "external_id": "event_format_webinar",
+        "terms": []
+      },
+      {
+        "id": "707bb142-f7d5-574a-b0ba-63037c412d84",
+        "name": "Roundtable",
+        "codename": "roundtable",
+        "external_id": "event_format_roundtable",
+        "terms": []
+      }
+    ]
+  },
+  {
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "id": "c73d35c2-df63-53f5-a9e5-a8450b027704",
+    "name": "Market Topic",
+    "codename": "market_topic",
+    "external_id": "market_topic",
+    "terms": [
+      {
+        "id": "33b8eafc-080f-51ac-8fd8-ddf043551dd3",
+        "name": "Markets & Trading",
+        "codename": "markets_trading",
+        "external_id": "market_topic_markets_trading",
+        "terms": []
+      },
+      {
+        "id": "b1e860df-6000-5db1-8e17-12362bc65bc0",
+        "name": "Risk Management",
+        "codename": "risk_management",
+        "external_id": "market_topic_risk_management",
+        "terms": []
+      },
+      {
+        "id": "17ac481e-30ef-5021-92c5-c2e335b922ab",
+        "name": "Regulation & Compliance",
+        "codename": "regulation_compliance",
+        "external_id": "market_topic_regulation_compliance",
+        "terms": []
+      },
+      {
+        "id": "6a2b1f7e-0000-5000-9000-000000000001",
+        "name": "Payments",
+        "codename": "payments",
+        "external_id": "market_topic_payments",
+        "terms": []
+      }
+    ]
+  },
+  {
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "id": "984dad67-1b78-4cc9-9c84-7948182ad73a",
+    "name": "Content Channel",
+    "codename": "content_channel",
+    "external_id": "content_channel",
+    "terms": [
+      {
+        "id": "9e2837c0-1c92-4034-a354-f6c0336e305e",
+        "name": "Public Web",
+        "codename": "public_web",
+        "external_id": "content_channel_public_web",
+        "terms": []
+      },
+      {
+        "id": "547b476a-8771-4b8c-9282-d63c4bcd5a8f",
+        "name": "Intranet",
+        "codename": "intranet",
+        "external_id": "content_channel_intranet",
+        "terms": []
+      },
+      {
+        "id": "ca6a9ab3-d6ee-4306-83c8-6f5f5f1ef6d3",
+        "name": "Knowledge Base",
+        "codename": "knowledge_base",
+        "external_id": "content_channel_knowledge_base",
+        "terms": []
+      },
+      {
+        "id": "a2053d06-e4da-4361-b67a-392a3a82932f",
+        "name": "Regulated Docs",
+        "codename": "regulated_docs",
+        "external_id": "content_channel_regulated_docs",
+        "terms": []
+      }
+    ]
+  }
+]

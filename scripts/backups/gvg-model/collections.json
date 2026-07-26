@@ -1,0 +1,27 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "name": "Default",
+    "codename": "default"
+  },
+  {
+    "id": "7620423e-c69e-490b-81f4-2f19a6af093c",
+    "name": "Public Web",
+    "codename": "public_web"
+  },
+  {
+    "id": "4cb32d26-435f-4fd6-ab9a-e5fc73bb60fe",
+    "name": "Intranet",
+    "codename": "intranet"
+  },
+  {
+    "id": "1de466b8-c25e-4aea-aa83-18479d71f080",
+    "name": "Knowledge Base",
+    "codename": "knowledge_base"
+  },
+  {
+    "id": "e3524d46-ede3-4b7a-895c-dd0fb7ba182d",
+    "name": "Regulated Docs",
+    "codename": "regulated_docs"
+  }
+]

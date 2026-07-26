@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+ * Per-site theme tokens. The active site is stamped onto <html data-site="..."> (see
+ * src/components/Layout.tsx and src/main.tsx), which selects one of these blocks. Colors are
+ * space-separated RGB channels so Tailwind's /<alpha-value> opacity modifiers work.
+ */
+
+:root,
+:root[data-site="public_web"] {
+  --color-primary: 11 37 69;      /* navy   */
+  --color-accent: 201 162 75;     /* gold   */
+  --color-secondary: 19 49 92;    /* slate  */
+  --color-muted: 141 169 196;     /* steel  */
+  --color-canvas: 244 246 249;    /* off-white */
+  --font-display: "Lora", Georgia, serif;
+  --font-body: "Source Sans 3", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+/* Intranet — utilitarian internal portal: cool slate + teal, all-sans */
+:root[data-site="intranet"] {
+  --color-primary: 30 41 74;      /* deep indigo-slate */
+  --color-accent: 13 148 136;     /* teal */
+  --color-secondary: 51 65 85;
+  --color-muted: 148 163 184;
+  --color-canvas: 248 250 252;
+  --font-display: "Inter", Arial, sans-serif;
+  --font-body: "Inter", Arial, sans-serif;
+}
+
+/* Knowledge Base — friendly help center: cyan + emerald, bright */
+:root[data-site="knowledge_base"] {
+  --color-primary: 22 78 99;      /* cyan-900 */
+  --color-accent: 5 150 105;      /* emerald-600 */
+  --color-secondary: 15 118 110;  /* teal-700 */
+  --color-muted: 125 211 252;     /* sky-300 */
+  --color-canvas: 240 249 255;    /* sky-50 */
+  --font-display: "Inter", Arial, sans-serif;
+  --font-body: "Inter", Arial, sans-serif;
+}
+
+/* Regulated Docs — formal, high-contrast, controlled: near-black + oxblood, serif + mono */
+:root[data-site="regulated_docs"] {
+  --color-primary: 17 24 39;      /* gray-900 */
+  --color-accent: 127 29 29;      /* red-900 (oxblood) */
+  --color-secondary: 55 65 81;    /* gray-700 */
+  --color-muted: 156 163 175;     /* gray-400 */
+  --color-canvas: 250 250 249;    /* stone-50 */
+  --font-display: "Lora", Georgia, serif;
+  --font-body: "Inter", Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: rgb(var(--color-canvas));
+    font-family: var(--font-body);
+  }
+}

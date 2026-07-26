@@ -23,7 +23,7 @@ const FeaturedArticle: React.FC<FeaturedArticleProps> = ({ article }) => {
             typeCodename={"article"}
             link={articleLink}
           >
-            <h2 className="text-center xl:text-left text-5xl font-semibold text-burgundy">
+            <h2 className="text-center xl:text-left text-5xl font-semibold text-primary">
               {article.elements.title?.value}
             </h2>
           </RenderElement>
@@ -56,7 +56,7 @@ const FeaturedArticle: React.FC<FeaturedArticleProps> = ({ article }) => {
             </p>
           </RenderElement>
         </div>
-        <a href="#" className="text-center xl:text-left text-burgundy text-xl mt-6 font-semibold underline">
+        <a href="#" className="text-center xl:text-left text-accent text-xl mt-6 font-semibold underline">
           Read more
         </a>
       </>

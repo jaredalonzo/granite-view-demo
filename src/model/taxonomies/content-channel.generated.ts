@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -15,48 +15,49 @@
 import type { TaxonomyCodenames } from "../system/taxonomies.generated.ts";
 
 /*
- * Type representing codename of 'Event Topic' taxonomy
+ * Type representing codename of 'Content Channel' taxonomy
  */
-export type EventTopicTaxonomyCodename = keyof Pick<
+export type ContentChannelTaxonomyCodename = keyof Pick<
 	Record<TaxonomyCodenames, null>,
-	"event_topic"
+	"content_channel"
 >;
 
 /*
- * Typeguard for codename of 'Event Topic' taxonomy
+ * Typeguard for codename of 'Content Channel' taxonomy
  */
-export function isEventTopicTaxonomyCodename(
+export function isContentChannelTaxonomyCodename(
 	value: string | undefined | null,
-): value is EventTopicTaxonomyCodename {
+): value is ContentChannelTaxonomyCodename {
 	return (
 		typeof value === "string" &&
-		value === ("event_topic" satisfies EventTopicTaxonomyCodename)
+		value === ("content_channel" satisfies ContentChannelTaxonomyCodename)
 	);
 }
 
 /*
  * Array of all taxonomy term codenames
  */
-export const eventTopicTaxonomyTermCodenames = [
-	"nutrition",
-	"physical_fitness",
-	"preventative_care",
+export const contentChannelTaxonomyTermCodenames = [
+	"public_web",
+	"intranet",
+	"knowledge_base",
+	"regulated_docs",
 ] as const;
 
 /*
  * Type representing all taxonomy term codenames
  */
-export type EventTopicTaxonomyTermCodenames =
-	(typeof eventTopicTaxonomyTermCodenames)[number];
+export type ContentChannelTaxonomyTermCodenames =
+	(typeof contentChannelTaxonomyTermCodenames)[number];
 
 /*
  * Typeguard for taxonomy term codename
  */
-export function isEventTopicTaxonomyTermCodename(
+export function isContentChannelTaxonomyTermCodename(
 	value: string | undefined | null,
-): value is EventTopicTaxonomyTermCodenames {
+): value is ContentChannelTaxonomyTermCodenames {
 	return (
 		typeof value === "string" &&
-		(eventTopicTaxonomyTermCodenames as readonly string[]).includes(value)
+		(contentChannelTaxonomyTermCodenames as readonly string[]).includes(value)
 	);
 }

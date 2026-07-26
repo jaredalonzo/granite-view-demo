@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import RenderElement from "./RenderElement";
 import { articleLink } from "../constants/links";
 import { useAppContext } from "../context/AppContext";
+import { useSite } from "../context/SiteContext";
 import { SolutionType as Solution } from "../model";
 import { Replace } from "../utils/types";
 import { createClient } from "../utils/client";
 
 const SolutionList: React.FC = () => {
   const { environmentId, apiKey } = useAppContext();
+  const { site } = useSite();
 
   const [solutions, setSolutions] = useState<ReadonlyArray<Solution> | null>(null);
 
@@ -15,11 +17,12 @@ const SolutionList: React.FC = () => {
     createClient(environmentId, apiKey)
       .items()
       .type("solution")
+      .collection(site.collection)
       .toPromise()
       .then(res => {
         setSolutions(res.data.items as ReadonlyArray<Solution>);
       });
-  }, [environmentId, apiKey]);
+  }, [environmentId, apiKey, site.collection]);
 
   if (!solutions || solutions.length === 0) {
     return null;
@@ -27,8 +30,8 @@ const SolutionList: React.FC = () => {
 
   return (
     <>
-      <h2 className="text-azure text-[40px] md:text-[64px] leading-[54px] w-full p-8 text-center">
-        Solutions Tailored to You
+      <h2 className="text-primary font-serif text-[40px] md:text-[64px] leading-[54px] w-full p-8 text-center">
+        Our service lines
       </h2>
       {solutions.map(solution => <SolutionListItem key={solution.system.id} solution={solution} />)}
     </>
@@ -51,18 +54,14 @@ const SolutionListItem: React.FC<SolutionListItemProps> = ({ solution }) => {
           typeCodename={"solution"}
           link={articleLink}
         >
-          {solution.elements.image && (
-            <>
-              <img
-                width={640}
-                height={420}
-                src={solution.elements.image.value[0]?.url
-                  ? `${solution.elements.image.value[0]?.url}?auto=format&w=800`
-                  : ""}
-                alt={solution.elements.image.value[0].description ?? "image alt"}
-                className="object-cover rounded-lg static"
-              />
-            </>
+          {solution.elements.image?.value[0] && (
+            <img
+              width={640}
+              height={420}
+              src={`${solution.elements.image.value[0].url}?auto=format&w=800`}
+              alt={solution.elements.image.value[0].description ?? "image alt"}
+              className="object-cover rounded-lg static"
+            />
           )}
         </RenderElement>
       </div>
@@ -74,7 +73,7 @@ const SolutionListItem: React.FC<SolutionListItemProps> = ({ solution }) => {
           typeCodename={"solution"}
           link={articleLink}
         >
-          <h2 className="text-left text-5xl font-semibold text-burgundy">
+          <h2 className="text-left text-5xl font-semibold text-primary">
             {solution.elements.headline?.value}
           </h2>
         </RenderElement>
@@ -88,7 +87,7 @@ const SolutionListItem: React.FC<SolutionListItemProps> = ({ solution }) => {
           <p className="text-left text-gray-700 mt-4 text-xl">
             {solution.elements.introduction?.value}
             <p>
-              <a href="#" className="text-burgundy text-xl mt-6 font-semibold underline">
+              <a href="#" className="text-accent text-xl mt-6 font-semibold underline">
                 Read more
               </a>
             </p>

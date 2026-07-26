@@ -9,6 +9,7 @@ import { createClient } from "../utils/client";
 import { useSuspenseQueries } from "@tanstack/react-query";
 import { FC } from "react";
 import { useAppContext } from "../context/AppContext";
+import { useSite } from "../context/SiteContext";
 import { Replace } from "../utils/types";
 import RenderElement from "../components/RenderElement";
 import FeaturedContent from "../components/FeaturedContent";
@@ -16,9 +17,11 @@ import KontentComponentErrorMessage from "../components/KontentComponentErrorMes
 import Layout from "../components/Layout";
 import { landingPageLink } from "../constants/links";
 import SolutionList from "../components/SolutionListItem";
+import { Link } from "react-router-dom";
 
 const LandingPage: FC = () => {
   const { environmentId, apiKey } = useAppContext();
+  const { site } = useSite();
 
   const [landingPageType, landingPage] = useSuspenseQueries({
     queries: [
@@ -37,11 +40,12 @@ const LandingPage: FC = () => {
             }),
       },
       {
-        queryKey: ["landing_page"],
+        queryKey: ["landing_page", site.collection],
         queryFn: () =>
           createClient(environmentId, apiKey)
             .items()
             .type("landing_page")
+            .collection(site.collection)
             .limitParameter(1)
             .toPromise()
             .then(res =>
@@ -92,7 +96,7 @@ const LandingPage: FC = () => {
   return (
     <Layout>
       <div className="flex-grow">
-        <PageSection color="bg-creme">
+        <PageSection color="bg-canvas">
           <HeroImage
             data={{
               headline: landingPage.data.elements.headline,
@@ -101,6 +105,21 @@ const LandingPage: FC = () => {
             }}
           />
         </PageSection>
+        {site.collection === "regulated_docs" && (
+          <PageSection color="bg-primary">
+            <div className="py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+              <p className="text-white text-xl">
+                Browse all controlled, Legal-approved documentation.
+              </p>
+              <Link
+                to="/regulated-docs"
+                className="bg-accent text-primary font-semibold px-6 py-3 rounded-lg hover:bg-white transition-colors whitespace-nowrap"
+              >
+                Open the regulated documentation portal →
+              </Link>
+            </div>
+          </PageSection>
+        )}
         <PageSection color="bg-white">
           <SolutionList />
         </PageSection>

@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -15,7 +15,13 @@
 /*
  * Array of all collection codenames
  */
-export const collectionCodenames = ["default"] as const;
+export const collectionCodenames = [
+	"default",
+	"public_web",
+	"intranet",
+	"knowledge_base",
+	"regulated_docs",
+] as const;
 
 /*
  * Type representing all collection codenames

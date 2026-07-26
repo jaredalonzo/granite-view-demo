@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -15,48 +15,49 @@
 import type { TaxonomyCodenames } from "../system/taxonomies.generated.ts";
 
 /*
- * Type representing codename of 'Event Type' taxonomy
+ * Type representing codename of 'Market Topic' taxonomy
  */
-export type EventTypeTaxonomyCodename = keyof Pick<
+export type MarketTopicTaxonomyCodename = keyof Pick<
 	Record<TaxonomyCodenames, null>,
-	"event_type"
+	"market_topic"
 >;
 
 /*
- * Typeguard for codename of 'Event Type' taxonomy
+ * Typeguard for codename of 'Market Topic' taxonomy
  */
-export function isEventTypeTaxonomyCodename(
+export function isMarketTopicTaxonomyCodename(
 	value: string | undefined | null,
-): value is EventTypeTaxonomyCodename {
+): value is MarketTopicTaxonomyCodename {
 	return (
 		typeof value === "string" &&
-		value === ("event_type" satisfies EventTypeTaxonomyCodename)
+		value === ("market_topic" satisfies MarketTopicTaxonomyCodename)
 	);
 }
 
 /*
  * Array of all taxonomy term codenames
  */
-export const eventTypeTaxonomyTermCodenames = [
-	"seminar",
-	"webinar",
-	"workshop",
+export const marketTopicTaxonomyTermCodenames = [
+	"markets_trading",
+	"risk_management",
+	"regulation_compliance",
+	"payments",
 ] as const;
 
 /*
  * Type representing all taxonomy term codenames
  */
-export type EventTypeTaxonomyTermCodenames =
-	(typeof eventTypeTaxonomyTermCodenames)[number];
+export type MarketTopicTaxonomyTermCodenames =
+	(typeof marketTopicTaxonomyTermCodenames)[number];
 
 /*
  * Typeguard for taxonomy term codename
  */
-export function isEventTypeTaxonomyTermCodename(
+export function isMarketTopicTaxonomyTermCodename(
 	value: string | undefined | null,
-): value is EventTypeTaxonomyTermCodenames {
+): value is MarketTopicTaxonomyTermCodenames {
 	return (
 		typeof value === "string" &&
-		(eventTypeTaxonomyTermCodenames as readonly string[]).includes(value)
+		(marketTopicTaxonomyTermCodenames as readonly string[]).includes(value)
 	);
 }

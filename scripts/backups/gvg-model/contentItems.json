@@ -1,0 +1,227 @@
+[
+  {
+    "id": "4e2b6d26-df7a-58fc-a6ec-e2f4c1b63c08",
+    "name": "2026 Market Outlook: Navigating Rate Volatility",
+    "codename": "art_market_outlook",
+    "type": {
+      "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+    },
+    "collection": {
+      "id": "7620423e-c69e-490b-81f4-2f19a6af093c"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "art_market_outlook",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "3befd1ad-4f76-5367-a827-21a1603b92f0",
+    "name": "Landing Page \u2014 public_web",
+    "codename": "landing_public_web",
+    "type": {
+      "id": "aa610b72-ca00-5ee3-bd30-f5b001b9d64e"
+    },
+    "collection": {
+      "id": "7620423e-c69e-490b-81f4-2f19a6af093c"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "landing_public_web",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "cf2397d8-419c-5014-a064-0a46a8c92eb5",
+    "name": "Risk Management",
+    "codename": "sol_public_web_1",
+    "type": {
+      "id": "38f94bc7-66ee-5c66-8402-15eb237d9835"
+    },
+    "collection": {
+      "id": "7620423e-c69e-490b-81f4-2f19a6af093c"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "sol_public_web_1",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "d3888cdd-1909-5ac2-afc3-e802868dec09",
+    "name": "Global Payments",
+    "codename": "sol_public_web_2",
+    "type": {
+      "id": "38f94bc7-66ee-5c66-8402-15eb237d9835"
+    },
+    "collection": {
+      "id": "7620423e-c69e-490b-81f4-2f19a6af093c"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "sol_public_web_2",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "551e753f-daaa-5365-81ff-35f9c6d1ae4b",
+    "name": "Q3 Compliance Update for Trading Desks",
+    "codename": "art_compliance_update",
+    "type": {
+      "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+    },
+    "collection": {
+      "id": "4cb32d26-435f-4fd6-ab9a-e5fc73bb60fe"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "art_compliance_update",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "a8c83b5b-0b0d-5882-b8a0-4b05e9968c42",
+    "name": "Landing Page \u2014 intranet",
+    "codename": "landing_intranet",
+    "type": {
+      "id": "aa610b72-ca00-5ee3-bd30-f5b001b9d64e"
+    },
+    "collection": {
+      "id": "4cb32d26-435f-4fd6-ab9a-e5fc73bb60fe"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "landing_intranet",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "8bc69745-bdbf-5f46-b8dc-7f7627f275a5",
+    "name": "Trading Desk Handbook",
+    "codename": "sol_intranet_1",
+    "type": {
+      "id": "38f94bc7-66ee-5c66-8402-15eb237d9835"
+    },
+    "collection": {
+      "id": "4cb32d26-435f-4fd6-ab9a-e5fc73bb60fe"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "sol_intranet_1",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "dbadce60-d7da-5d98-aaf9-b51d96a32e41",
+    "name": "Expense & Travel",
+    "codename": "sol_intranet_2",
+    "type": {
+      "id": "38f94bc7-66ee-5c66-8402-15eb237d9835"
+    },
+    "collection": {
+      "id": "4cb32d26-435f-4fd6-ab9a-e5fc73bb60fe"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "sol_intranet_2",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "3279b7c5-d566-5bbb-a26a-569a907c59f1",
+    "name": "How to Reset Your Trading Platform Password",
+    "codename": "art_reset_password",
+    "type": {
+      "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+    },
+    "collection": {
+      "id": "1de466b8-c25e-4aea-aa83-18479d71f080"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "art_reset_password",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "fb761da3-522f-571a-b73f-0b12fefb5eee",
+    "name": "Landing Page \u2014 knowledge_base",
+    "codename": "landing_knowledge_base",
+    "type": {
+      "id": "aa610b72-ca00-5ee3-bd30-f5b001b9d64e"
+    },
+    "collection": {
+      "id": "1de466b8-c25e-4aea-aa83-18479d71f080"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "landing_knowledge_base",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "aaac7b1e-b269-52b8-b35d-218032f2869c",
+    "name": "Getting Started",
+    "codename": "sol_knowledge_base_1",
+    "type": {
+      "id": "38f94bc7-66ee-5c66-8402-15eb237d9835"
+    },
+    "collection": {
+      "id": "1de466b8-c25e-4aea-aa83-18479d71f080"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "sol_knowledge_base_1",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "16ba538c-7746-555a-85aa-a702f804dbba",
+    "name": "Best Execution Disclosure 2026",
+    "codename": "art_best_execution",
+    "type": {
+      "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+    },
+    "collection": {
+      "id": "e3524d46-ede3-4b7a-895c-dd0fb7ba182d"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "art_best_execution",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "eb4dbc94-a764-50e5-be23-f6a5c7693f28",
+    "name": "MiFID II Costs & Charges Disclosure",
+    "codename": "art_mifid_costs",
+    "type": {
+      "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+    },
+    "collection": {
+      "id": "e3524d46-ede3-4b7a-895c-dd0fb7ba182d"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "art_mifid_costs",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "c8bc4b0d-ad71-55dd-8d5b-73d471521f8b",
+    "name": "Landing Page \u2014 regulated_docs",
+    "codename": "landing_regulated_docs",
+    "type": {
+      "id": "aa610b72-ca00-5ee3-bd30-f5b001b9d64e"
+    },
+    "collection": {
+      "id": "e3524d46-ede3-4b7a-895c-dd0fb7ba182d"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "landing_regulated_docs",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "id": "06b9ba3e-152f-5b8b-9c58-c6f23b6e4997",
+    "name": "Order Execution Policy",
+    "codename": "sol_regulated_docs_1",
+    "type": {
+      "id": "38f94bc7-66ee-5c66-8402-15eb237d9835"
+    },
+    "collection": {
+      "id": "e3524d46-ede3-4b7a-895c-dd0fb7ba182d"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "sol_regulated_docs_1",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  }
+]

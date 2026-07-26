@@ -24,7 +24,7 @@ const FeaturedComponentBase: FC<FeaturedContentProps> = ({ type, image, children
         >
           {img && (
             <>
-              <span className="px-3.5 py-1.5 absolute text-[12px] bg-azure text-white mt-4 ms-4 rounded-md font-bold">
+              <span className="px-3.5 py-1.5 absolute text-[12px] bg-accent text-primary mt-4 ms-4 rounded-md font-bold">
                 {type === "event" ? "FEATURED EVENT" : "FEATURED ARTICLE"}
               </span>
               <img

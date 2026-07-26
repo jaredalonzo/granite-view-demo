@@ -1,0 +1,521 @@
+[
+  {
+    "id": "38f94bc7-66ee-5c66-8402-15eb237d9835",
+    "codename": "solution",
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "external_id": "solution",
+    "name": "Solution",
+    "content_groups": [],
+    "elements": [
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Headline",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "solution_default_headline_element",
+        "id": "9148131a-90f6-588a-bea4-c0397dbc554b",
+        "codename": "headline"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Introduction",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "solution_default_introduction_element",
+        "id": "ec1fba9b-f3ed-5653-ac01-9815dca28b61",
+        "codename": "introduction"
+      },
+      {
+        "asset_count_limit": null,
+        "maximum_file_size": null,
+        "allowed_file_types": "any",
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "default": null,
+        "name": "Image",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "asset",
+        "external_id": "solution_default_image_element",
+        "id": "481aa452-c113-5bb1-ae61-21b112bd0841",
+        "codename": "image"
+      },
+      {
+        "taxonomy_group": {
+          "id": "984dad67-1b78-4cc9-9c84-7948182ad73a"
+        },
+        "term_count_limit": null,
+        "default": null,
+        "name": "Content Channel",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "taxonomy",
+        "external_id": "solution_content_channel_element",
+        "id": "d3f10a8d-79b2-4b74-bbd6-67f9eae2b218",
+        "codename": "content_channel"
+      }
+    ]
+  },
+  {
+    "id": "e97907ba-c5ae-53e6-bcb6-091bc89da3fa",
+    "codename": "event",
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "external_id": "event",
+    "name": "Event",
+    "content_groups": [],
+    "elements": [
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Name",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "event_default_name_element",
+        "id": "60502ad7-d552-5435-af46-6f4df84c3ddd",
+        "codename": "name"
+      },
+      {
+        "asset_count_limit": null,
+        "maximum_file_size": null,
+        "allowed_file_types": "any",
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "default": null,
+        "name": "Image",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "asset",
+        "external_id": "event_default_image_element",
+        "id": "b13e797e-0e50-5ecb-aebc-05aa9e180864",
+        "codename": "image"
+      },
+      {
+        "default": null,
+        "name": "Start Date",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "date_time",
+        "external_id": "event_default_start_date_element",
+        "id": "114ba02d-f9dd-5555-a78d-6798d1a835a0",
+        "codename": "start_date"
+      },
+      {
+        "default": null,
+        "name": "End Date",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "date_time",
+        "external_id": "event_default_end_date_element",
+        "id": "a00fecf1-c7ff-5bed-8c40-2eba7460170a",
+        "codename": "end_date"
+      },
+      {
+        "taxonomy_group": {
+          "id": "54519543-3e87-541d-a060-1246d721db5e"
+        },
+        "term_count_limit": null,
+        "default": null,
+        "name": "Event Format",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "taxonomy",
+        "external_id": "event_default_event_type_element",
+        "id": "aa177aeb-9cd0-5a3a-a6b6-ca055fe2cae3",
+        "codename": "event_format"
+      },
+      {
+        "taxonomy_group": {
+          "id": "c73d35c2-df63-53f5-a9e5-a8450b027704"
+        },
+        "term_count_limit": null,
+        "default": null,
+        "name": "Market Topic",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "taxonomy",
+        "external_id": "event_default_event_topic_element",
+        "id": "0da8a57d-a1d5-5b1e-9b6e-6d28dc1a6caa",
+        "codename": "market_topic"
+      },
+      {
+        "maximum_text_length": null,
+        "maximum_image_size": null,
+        "allowed_content_types": [],
+        "allowed_item_link_types": [],
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "allowed_image_types": "any",
+        "allowed_blocks": [],
+        "allowed_formatting": [],
+        "allowed_text_blocks": [],
+        "allowed_table_blocks": [],
+        "allowed_table_formatting": [],
+        "allowed_table_text_blocks": [],
+        "name": "Description",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "rich_text",
+        "external_id": "event_default_description_element",
+        "id": "2a7a8e84-274c-5339-afd2-4865b643fbb2",
+        "codename": "description"
+      }
+    ]
+  },
+  {
+    "id": "5b2003c5-fe38-5a6e-a21b-a7b2f5ee0ddb",
+    "codename": "video",
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "external_id": "video",
+    "name": "Video",
+    "content_groups": [],
+    "elements": [
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Headline",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "video_default_headline_element",
+        "id": "0bd216b2-4975-50f9-832e-6e2c6c5d1bf9",
+        "codename": "headline"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Description",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "video_default_description_element",
+        "id": "c454e463-2c85-57a2-aec8-e399a392b229",
+        "codename": "description"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Video Link",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "video_default_video_link_element",
+        "id": "09573446-747b-572e-af77-9cbf359bcdad",
+        "codename": "video_link"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Caption",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "video_default_caption_element",
+        "id": "c3054bab-604f-5d9d-bf1f-06c87cd5b15e",
+        "codename": "caption"
+      },
+      {
+        "mode": "single",
+        "options": [
+          {
+            "id": "3c1cbb5a-8eb8-591a-8e99-15d85ea5c276",
+            "codename": "true",
+            "name": "True",
+            "external_id": "video_autoplay_true"
+          },
+          {
+            "id": "118a4d40-b4a6-5d04-89cc-6a182245b8f9",
+            "codename": "false",
+            "name": "False",
+            "external_id": "video_autoplay_false"
+          }
+        ],
+        "default": null,
+        "name": "Autoplay",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "multiple_choice",
+        "external_id": "video_default_autoplay_element",
+        "id": "21250a1b-2eff-52cc-89b2-a44a2bab8b93",
+        "codename": "autoplay"
+      }
+    ]
+  },
+  {
+    "id": "aa610b72-ca00-5ee3-bd30-f5b001b9d64e",
+    "codename": "landing_page",
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "external_id": "landing_page",
+    "name": "Landing Page",
+    "content_groups": [],
+    "elements": [
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Headline",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "landing_page_default_headline_element",
+        "id": "ff2c9d21-64f1-5d64-b650-344dd0ba44d2",
+        "codename": "headline"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Subheadline",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "landing_page_default_subheadline_element",
+        "id": "96fa63e6-2f46-557d-9dc8-4874ae9340a6",
+        "codename": "subheadline"
+      },
+      {
+        "asset_count_limit": null,
+        "maximum_file_size": null,
+        "allowed_file_types": "any",
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "default": null,
+        "name": "Hero Image",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "asset",
+        "external_id": "landing_page_default_hero_image_element",
+        "id": "efe09118-3de6-5581-b784-43408e2e673b",
+        "codename": "hero_image"
+      },
+      {
+        "maximum_text_length": null,
+        "maximum_image_size": null,
+        "allowed_content_types": [
+          {
+            "id": "5b2003c5-fe38-5a6e-a21b-a7b2f5ee0ddb"
+          }
+        ],
+        "allowed_item_link_types": [],
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "allowed_image_types": "any",
+        "allowed_blocks": [],
+        "allowed_formatting": [],
+        "allowed_text_blocks": [],
+        "allowed_table_blocks": [],
+        "allowed_table_formatting": [],
+        "allowed_table_text_blocks": [],
+        "name": "Body Copy",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "rich_text",
+        "external_id": "landing_page_default_body_copy_element",
+        "id": "b0e94942-8d23-5f67-aa72-15c0ed45a390",
+        "codename": "body_copy"
+      },
+      {
+        "item_count_limit": null,
+        "allowed_content_types": [
+          {
+            "id": "e97907ba-c5ae-53e6-bcb6-091bc89da3fa"
+          },
+          {
+            "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+          }
+        ],
+        "default": null,
+        "name": "Featured Content",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "modular_content",
+        "external_id": "landing_page_default_featured_content_element",
+        "id": "7f939caa-a3a2-5018-a127-fe2938129fa9",
+        "codename": "featured_content"
+      }
+    ]
+  },
+  {
+    "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c",
+    "codename": "article",
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "external_id": "article",
+    "name": "Article",
+    "content_groups": [],
+    "elements": [
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Title",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "article_default_title_element",
+        "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc",
+        "codename": "title"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Introduction",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "article_default_introduction_element",
+        "id": "c3fc1a88-5577-5130-b0aa-b1837c009ba6",
+        "codename": "introduction"
+      },
+      {
+        "asset_count_limit": null,
+        "maximum_file_size": null,
+        "allowed_file_types": "any",
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "default": null,
+        "name": "Image",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "asset",
+        "external_id": "article_default_image_element",
+        "id": "8c501358-d0f7-5959-95bd-2991f1215e33",
+        "codename": "image"
+      },
+      {
+        "maximum_text_length": null,
+        "maximum_image_size": null,
+        "allowed_content_types": [],
+        "allowed_item_link_types": [],
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "allowed_image_types": "any",
+        "allowed_blocks": [],
+        "allowed_formatting": [],
+        "allowed_text_blocks": [],
+        "allowed_table_blocks": [],
+        "allowed_table_formatting": [],
+        "allowed_table_text_blocks": [],
+        "name": "Body Copy",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "rich_text",
+        "external_id": "article_default_body_copy_element",
+        "id": "0747fb13-7383-59fe-bf64-2bab6d384279",
+        "codename": "body_copy"
+      },
+      {
+        "default": null,
+        "name": "Publish Date",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "date_time",
+        "external_id": "article_default_publish_date_element",
+        "id": "abdf08ea-55f0-5460-96e0-391f7471c7e9",
+        "codename": "publish_date"
+      },
+      {
+        "taxonomy_group": {
+          "id": "984dad67-1b78-4cc9-9c84-7948182ad73a"
+        },
+        "term_count_limit": null,
+        "default": null,
+        "name": "Content Channel",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "taxonomy",
+        "external_id": "article_content_channel_element",
+        "id": "0887114b-b5fe-4750-b06c-01ce400cfb4c",
+        "codename": "content_channel"
+      },
+      {
+        "default": null,
+        "name": "Effective Date",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "date_time",
+        "external_id": "article_effective_date_element",
+        "id": "db510e5d-7702-4bf9-8170-d7f2119d3115",
+        "codename": "effective_date"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Version",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "article_version_element",
+        "id": "2ed60c75-bf9c-4dd1-8c51-95ec4ea72280",
+        "codename": "version"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Approved By",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "article_approved_by_element",
+        "id": "87020f13-bb06-44a8-b031-6a114e62cdee",
+        "codename": "approved_by"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Disclosure ID",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "article_disclosure_id_element",
+        "id": "006747f9-a8b8-476c-a041-3a67242305ae",
+        "codename": "disclosure_id"
+      }
+    ]
+  }
+]

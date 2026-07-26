@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -13,6 +13,10 @@
  */
 
 export * from "./collections/default-collection.generated.ts";
+export * from "./collections/intranet-collection.generated.ts";
+export * from "./collections/knowledge-base-collection.generated.ts";
+export * from "./collections/public-web-collection.generated.ts";
+export * from "./collections/regulated-docs-collection.generated.ts";
 export * from "./languages/default-project-language-language.generated.ts";
 export * from "./system/collections.generated.ts";
 export * from "./system/elements.generated.ts";
@@ -22,11 +26,13 @@ export * from "./system/snippets.generated.ts";
 export * from "./system/taxonomies.generated.ts";
 export * from "./system/types.generated.ts";
 export * from "./system/workflows.generated.ts";
-export * from "./taxonomies/event-topic.generated.ts";
-export * from "./taxonomies/event-type.generated.ts";
+export * from "./taxonomies/content-channel.generated.ts";
+export * from "./taxonomies/event-format.generated.ts";
+export * from "./taxonomies/market-topic.generated.ts";
 export * from "./types/article.generated.ts";
 export * from "./types/event.generated.ts";
 export * from "./types/landing-page.generated.ts";
 export * from "./types/solution.generated.ts";
 export * from "./types/video.generated.ts";
 export * from "./workflows/default-workflow.generated.ts";
+export * from "./workflows/regulated-content-workflow.generated.ts";

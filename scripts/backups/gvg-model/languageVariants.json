@@ -1,0 +1,885 @@
+[
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc"
+        },
+        "value": "2026 Market Outlook: Navigating Rate Volatility"
+      },
+      {
+        "element": {
+          "id": "c3fc1a88-5577-5130-b0aa-b1837c009ba6"
+        },
+        "value": "Our strategists on positioning portfolios as central banks diverge."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "0747fb13-7383-59fe-bf64-2bab6d384279"
+        },
+        "value": "<p>Rate volatility is reshaping how institutions hedge and allocate. This outlook covers duration, credit, and FX positioning for the second half of 2026.</p>"
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "abdf08ea-55f0-5460-96e0-391f7471c7e9"
+        },
+        "value": "2026-06-15T00:00:00Z"
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "4e2b6d26-df7a-58fc-a6ec-e2f4c1b63c08"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ff2c9d21-64f1-5d64-b650-344dd0ba44d2"
+        },
+        "value": "Confidence in every market."
+      },
+      {
+        "element": {
+          "id": "96fa63e6-2f46-557d-9dc8-4874ae9340a6"
+        },
+        "value": "Risk management, payments, and asset trading for institutional, commercial, and individual clients worldwide."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "b0e94942-8d23-5f67-aa72-15c0ed45a390"
+        },
+        "value": "<p>Granite View Group partners with clients across global markets to manage risk, move money, and trade with confidence.</p>"
+      },
+      {
+        "element": {
+          "id": "7f939caa-a3a2-5018-a127-fe2938129fa9"
+        },
+        "value": [
+          {
+            "id": "4e2b6d26-df7a-58fc-a6ec-e2f4c1b63c08"
+          }
+        ]
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "3befd1ad-4f76-5367-a827-21a1603b92f0"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "9148131a-90f6-588a-bea4-c0397dbc554b"
+        },
+        "value": "Risk Management"
+      },
+      {
+        "element": {
+          "id": "ec1fba9b-f3ed-5653-ac01-9815dca28b61"
+        },
+        "value": "Identify, measure, and hedge exposure across every asset class from a single view of risk."
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "cf2397d8-419c-5014-a064-0a46a8c92eb5"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "9148131a-90f6-588a-bea4-c0397dbc554b"
+        },
+        "value": "Global Payments"
+      },
+      {
+        "element": {
+          "id": "ec1fba9b-f3ed-5653-ac01-9815dca28b61"
+        },
+        "value": "Move money across borders with bank-grade settlement and real-time visibility."
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "d3888cdd-1909-5ac2-afc3-e802868dec09"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc"
+        },
+        "value": "Q3 Compliance Update for Trading Desks"
+      },
+      {
+        "element": {
+          "id": "c3fc1a88-5577-5130-b0aa-b1837c009ba6"
+        },
+        "value": "Mandatory reading for all desk staff ahead of the new quarter."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "0747fb13-7383-59fe-bf64-2bab6d384279"
+        },
+        "value": "<p>This quarter introduces updated pre-trade checks and revised escalation paths. Desk heads must confirm completion by the end of the month.</p>"
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "abdf08ea-55f0-5460-96e0-391f7471c7e9"
+        },
+        "value": "2026-07-10T00:00:00Z"
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "551e753f-daaa-5365-81ff-35f9c6d1ae4b"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ff2c9d21-64f1-5d64-b650-344dd0ba44d2"
+        },
+        "value": "The Granite View employee hub."
+      },
+      {
+        "element": {
+          "id": "96fa63e6-2f46-557d-9dc8-4874ae9340a6"
+        },
+        "value": "Policies, desk tools, and internal resources for every Granite View team."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "b0e94942-8d23-5f67-aa72-15c0ed45a390"
+        },
+        "value": "<p>Welcome back. Find desk procedures, compliance updates, and internal announcements in one place.</p>"
+      },
+      {
+        "element": {
+          "id": "7f939caa-a3a2-5018-a127-fe2938129fa9"
+        },
+        "value": [
+          {
+            "id": "551e753f-daaa-5365-81ff-35f9c6d1ae4b"
+          }
+        ]
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "a8c83b5b-0b0d-5882-b8a0-4b05e9968c42"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "9148131a-90f6-588a-bea4-c0397dbc554b"
+        },
+        "value": "Trading Desk Handbook"
+      },
+      {
+        "element": {
+          "id": "ec1fba9b-f3ed-5653-ac01-9815dca28b61"
+        },
+        "value": "Standard operating procedures for the global trading floor."
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "8bc69745-bdbf-5f46-b8dc-7f7627f275a5"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "9148131a-90f6-588a-bea4-c0397dbc554b"
+        },
+        "value": "Expense & Travel"
+      },
+      {
+        "element": {
+          "id": "ec1fba9b-f3ed-5653-ac01-9815dca28b61"
+        },
+        "value": "Submit expenses and book travel through the internal portal."
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "dbadce60-d7da-5d98-aaf9-b51d96a32e41"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc"
+        },
+        "value": "How to Reset Your Trading Platform Password"
+      },
+      {
+        "element": {
+          "id": "c3fc1a88-5577-5130-b0aa-b1837c009ba6"
+        },
+        "value": "A step-by-step guide to regaining access securely."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "0747fb13-7383-59fe-bf64-2bab6d384279"
+        },
+        "value": "<p>Follow these steps to reset your password and re-enable multi-factor authentication on the trading platform.</p>"
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "abdf08ea-55f0-5460-96e0-391f7471c7e9"
+        },
+        "value": "2026-04-02T00:00:00Z"
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "3279b7c5-d566-5bbb-a26a-569a907c59f1"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ff2c9d21-64f1-5d64-b650-344dd0ba44d2"
+        },
+        "value": "How can we help?"
+      },
+      {
+        "element": {
+          "id": "96fa63e6-2f46-557d-9dc8-4874ae9340a6"
+        },
+        "value": "Guides and answers for Granite View platforms and services."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "b0e94942-8d23-5f67-aa72-15c0ed45a390"
+        },
+        "value": "<p>Browse step-by-step guidance for onboarding, account setup, and platform troubleshooting.</p>"
+      },
+      {
+        "element": {
+          "id": "7f939caa-a3a2-5018-a127-fe2938129fa9"
+        },
+        "value": [
+          {
+            "id": "3279b7c5-d566-5bbb-a26a-569a907c59f1"
+          }
+        ]
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "fb761da3-522f-571a-b73f-0b12fefb5eee"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "9148131a-90f6-588a-bea4-c0397dbc554b"
+        },
+        "value": "Getting Started"
+      },
+      {
+        "element": {
+          "id": "ec1fba9b-f3ed-5653-ac01-9815dca28b61"
+        },
+        "value": "Set up your account and connect to the trading platform in minutes."
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "aaac7b1e-b269-52b8-b35d-218032f2869c"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc"
+        },
+        "value": "Best Execution Disclosure 2026"
+      },
+      {
+        "element": {
+          "id": "c3fc1a88-5577-5130-b0aa-b1837c009ba6"
+        },
+        "value": "How Granite View achieves best execution across venues and asset classes."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "0747fb13-7383-59fe-bf64-2bab6d384279"
+        },
+        "value": "<p>This disclosure describes the factors and venues Granite View uses to obtain the best possible result for client orders.</p>"
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "abdf08ea-55f0-5460-96e0-391f7471c7e9"
+        },
+        "value": "2026-07-01T00:00:00Z"
+      },
+      {
+        "element": {
+          "id": "0887114b-b5fe-4750-b06c-01ce400cfb4c"
+        },
+        "value": [
+          {
+            "id": "a2053d06-e4da-4361-b67a-392a3a82932f"
+          }
+        ]
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "db510e5d-7702-4bf9-8170-d7f2119d3115"
+        },
+        "value": "2026-07-01T00:00:00Z"
+      },
+      {
+        "element": {
+          "id": "2ed60c75-bf9c-4dd1-8c51-95ec4ea72280"
+        },
+        "value": "2.1"
+      },
+      {
+        "element": {
+          "id": "87020f13-bb06-44a8-b031-6a114e62cdee"
+        },
+        "value": "Legal & Compliance"
+      },
+      {
+        "element": {
+          "id": "006747f9-a8b8-476c-a041-3a67242305ae"
+        },
+        "value": "GVG-BEX-2026-014"
+      }
+    ],
+    "workflow_step": {
+      "id": "0bd15ae9-f901-41b6-aa4e-86cd4f7c85c3"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "c42212bc-2388-4430-bc81-4660c093a51f"
+      },
+      "step_identifier": {
+        "id": "0bd15ae9-f901-41b6-aa4e-86cd4f7c85c3"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "16ba538c-7746-555a-85aa-a702f804dbba"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc"
+        },
+        "value": "MiFID II Costs & Charges Disclosure"
+      },
+      {
+        "element": {
+          "id": "c3fc1a88-5577-5130-b0aa-b1837c009ba6"
+        },
+        "value": "Aggregated and itemised costs and charges for investment services."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "0747fb13-7383-59fe-bf64-2bab6d384279"
+        },
+        "value": "<p>This document sets out the costs and charges associated with Granite View investment services in line with MiFID II requirements.</p>"
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "abdf08ea-55f0-5460-96e0-391f7471c7e9"
+        },
+        "value": "2026-05-20T00:00:00Z"
+      },
+      {
+        "element": {
+          "id": "0887114b-b5fe-4750-b06c-01ce400cfb4c"
+        },
+        "value": [
+          {
+            "id": "a2053d06-e4da-4361-b67a-392a3a82932f"
+          }
+        ]
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "db510e5d-7702-4bf9-8170-d7f2119d3115"
+        },
+        "value": "2026-05-20T00:00:00Z"
+      },
+      {
+        "element": {
+          "id": "2ed60c75-bf9c-4dd1-8c51-95ec4ea72280"
+        },
+        "value": "1.0"
+      },
+      {
+        "element": {
+          "id": "87020f13-bb06-44a8-b031-6a114e62cdee"
+        },
+        "value": "Legal & Compliance"
+      },
+      {
+        "element": {
+          "id": "006747f9-a8b8-476c-a041-3a67242305ae"
+        },
+        "value": "GVG-MFD-2026-007"
+      }
+    ],
+    "workflow_step": {
+      "id": "c86dd019-28b6-432e-b191-1b5ea2a5ee93"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "c42212bc-2388-4430-bc81-4660c093a51f"
+      },
+      "step_identifier": {
+        "id": "c86dd019-28b6-432e-b191-1b5ea2a5ee93"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "eb4dbc94-a764-50e5-be23-f6a5c7693f28"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ff2c9d21-64f1-5d64-b650-344dd0ba44d2"
+        },
+        "value": "Regulated Documentation"
+      },
+      {
+        "element": {
+          "id": "96fa63e6-2f46-557d-9dc8-4874ae9340a6"
+        },
+        "value": "Controlled, Legal-approved disclosures and regulatory filings."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "b0e94942-8d23-5f67-aa72-15c0ed45a390"
+        },
+        "value": "<p>These documents are published under a controlled workflow and reviewed by Legal before release.</p>"
+      },
+      {
+        "element": {
+          "id": "7f939caa-a3a2-5018-a127-fe2938129fa9"
+        },
+        "value": [
+          {
+            "id": "16ba538c-7746-555a-85aa-a702f804dbba"
+          }
+        ]
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "c8bc4b0d-ad71-55dd-8d5b-73d471521f8b"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "9148131a-90f6-588a-bea4-c0397dbc554b"
+        },
+        "value": "Order Execution Policy"
+      },
+      {
+        "element": {
+          "id": "ec1fba9b-f3ed-5653-ac01-9815dca28b61"
+        },
+        "value": "How Granite View executes client orders to achieve best execution."
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "06b9ba3e-152f-5b8b-9c58-c6f23b6e4997"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  }
+]

@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -20,8 +20,8 @@ export const elementCodenames = [
 	"image",
 	"start_date",
 	"end_date",
-	"event_type",
-	"event_topic",
+	"event_format",
+	"market_topic",
 	"description",
 	"headline",
 	"video_link",
@@ -34,6 +34,11 @@ export const elementCodenames = [
 	"title",
 	"introduction",
 	"publish_date",
+	"content_channel",
+	"effective_date",
+	"version",
+	"approved_by",
+	"disclosure_id",
 ] as const;
 
 /*

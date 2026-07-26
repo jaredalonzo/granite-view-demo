@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -21,13 +21,13 @@ import type {
 	WorkflowStepCodenames,
 } from "../system/workflows.generated.ts";
 import type {
-	EventTopicTaxonomyCodename,
-	EventTopicTaxonomyTermCodenames,
-} from "../taxonomies/event-topic.generated.ts";
+	EventFormatTaxonomyCodename,
+	EventFormatTaxonomyTermCodenames,
+} from "../taxonomies/event-format.generated.ts";
 import type {
-	EventTypeTaxonomyCodename,
-	EventTypeTaxonomyTermCodenames,
-} from "../taxonomies/event-type.generated.ts";
+	MarketTopicTaxonomyCodename,
+	MarketTopicTaxonomyTermCodenames,
+} from "../taxonomies/market-topic.generated.ts";
 
 /*
  * Type representing codename of 'Event' type
@@ -102,33 +102,33 @@ export type EventType = IContentItem<
 		readonly end_date: Elements.DateTimeElement;
 
 		/*
-		 * Event Type
+		 * Event Format
 		 *
-		 * Codename: event_type
+		 * Codename: event_format
 		 * Id: aa177aeb-9cd0-5a3a-a6b6-ca055fe2cae3
 		 * External Id: event_default_event_type_element
 		 * Type: taxonomy
 		 * Required: true
-		 * Taxonomy: event_type
+		 * Taxonomy: event_format
 		 */
-		readonly event_type: Elements.TaxonomyElement<
-			EventTypeTaxonomyTermCodenames,
-			EventTypeTaxonomyCodename
+		readonly event_format: Elements.TaxonomyElement<
+			EventFormatTaxonomyTermCodenames,
+			EventFormatTaxonomyCodename
 		>;
 
 		/*
-		 * Event Topic
+		 * Market Topic
 		 *
-		 * Codename: event_topic
+		 * Codename: market_topic
 		 * Id: 0da8a57d-a1d5-5b1e-9b6e-6d28dc1a6caa
 		 * External Id: event_default_event_topic_element
 		 * Type: taxonomy
 		 * Required: true
-		 * Taxonomy: event_topic
+		 * Taxonomy: market_topic
 		 */
-		readonly event_topic: Elements.TaxonomyElement<
-			EventTopicTaxonomyTermCodenames,
-			EventTopicTaxonomyCodename
+		readonly market_topic: Elements.TaxonomyElement<
+			MarketTopicTaxonomyTermCodenames,
+			MarketTopicTaxonomyCodename
 		>;
 
 		/*
@@ -157,8 +157,8 @@ export type EventTypeElementCodenames =
 	| "image"
 	| "start_date"
 	| "end_date"
-	| "event_type"
-	| "event_topic"
+	| "event_format"
+	| "market_topic"
 	| "description";
 
 /*

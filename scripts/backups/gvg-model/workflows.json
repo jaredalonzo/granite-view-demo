@@ -1,0 +1,124 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "name": "Default",
+    "codename": "default",
+    "scopes": [],
+    "steps": [
+      {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9",
+        "name": "Draft",
+        "codename": "draft",
+        "color": "red",
+        "transitions_to": [
+          {
+            "step": {
+              "id": "c199950d-99f0-4983-b711-6c4c91624b22"
+            }
+          },
+          {
+            "step": {
+              "id": "7a535a69-ad34-47f8-806a-def1fdf4d391"
+            }
+          }
+        ],
+        "role_ids": []
+      }
+    ],
+    "published_step": {
+      "id": "c199950d-99f0-4983-b711-6c4c91624b22",
+      "name": "Published",
+      "codename": "published",
+      "unpublish_role_ids": [],
+      "create_new_version_role_ids": []
+    },
+    "scheduled_step": {
+      "id": "9d2b0228-4d0d-4c23-8b49-01a698857709",
+      "name": "Scheduled",
+      "codename": "scheduled"
+    },
+    "archived_step": {
+      "id": "7a535a69-ad34-47f8-806a-def1fdf4d391",
+      "name": "Archived",
+      "codename": "archived",
+      "role_ids": []
+    }
+  },
+  {
+    "id": "c42212bc-2388-4430-bc81-4660c093a51f",
+    "name": "Regulated content",
+    "codename": "regulated_content",
+    "scopes": [
+      {
+        "content_types": [
+          {
+            "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+          }
+        ],
+        "collections": [
+          {
+            "id": "e3524d46-ede3-4b7a-895c-dd0fb7ba182d"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "id": "c86dd019-28b6-432e-b191-1b5ea2a5ee93",
+        "name": "Draft",
+        "codename": "regulated_draft",
+        "color": "red",
+        "transitions_to": [
+          {
+            "step": {
+              "id": "0bd15ae9-f901-41b6-aa4e-86cd4f7c85c3"
+            }
+          },
+          {
+            "step": {
+              "id": "33509223-c796-41af-bffa-f27183addb8e"
+            }
+          }
+        ],
+        "role_ids": []
+      },
+      {
+        "id": "0bd15ae9-f901-41b6-aa4e-86cd4f7c85c3",
+        "name": "Legal review",
+        "codename": "legal_review",
+        "color": "orange",
+        "transitions_to": [
+          {
+            "step": {
+              "id": "c86dd019-28b6-432e-b191-1b5ea2a5ee93"
+            }
+          },
+          {
+            "step": {
+              "id": "33509223-c796-41af-bffa-f27183addb8e"
+            }
+          }
+        ],
+        "role_ids": []
+      }
+    ],
+    "published_step": {
+      "id": "33509223-c796-41af-bffa-f27183addb8e",
+      "name": "Published",
+      "codename": "published",
+      "unpublish_role_ids": [],
+      "create_new_version_role_ids": []
+    },
+    "scheduled_step": {
+      "id": "3bee4156-0cfc-40b2-a828-fb85fad4d271",
+      "name": "Scheduled",
+      "codename": "scheduled"
+    },
+    "archived_step": {
+      "id": "1916407e-3bab-4340-a4b9-8eec6d1b9c61",
+      "name": "Archived",
+      "codename": "archived",
+      "role_ids": []
+    }
+  }
+]

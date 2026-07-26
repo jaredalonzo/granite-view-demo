@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -16,6 +16,7 @@
             import type { TypeCodenames } from '../system/types.generated.ts';
 import type { Elements, IContentItem } from '@kontent-ai/delivery-sdk';
 import type { CollectionCodenames } from '../system/collections.generated.ts';
+import type { ContentChannelTaxonomyTermCodenames, ContentChannelTaxonomyCodename } from '../taxonomies/content-channel.generated.ts';
 import type { LanguageCodenames } from '../system/languages.generated.ts';
 import type { WorkflowCodenames, WorkflowStepCodenames } from '../system/workflows.generated.ts';
            
@@ -34,8 +35,9 @@ import type { WorkflowCodenames, WorkflowStepCodenames } from '../system/workflo
 /*
     * Solution
     *
-    * Id: cfe09735-6b00-4b8a-b2f4-07b70603a82f
+    * Id: 38f94bc7-66ee-5c66-8402-15eb237d9835
 * Codename: solution
+* External Id: solution
     */
 export type SolutionType = IContentItem<
 {
@@ -43,9 +45,10 @@ export type SolutionType = IContentItem<
     * Headline
     *
     * Codename: headline
-* Id: 23bfd568-2e64-4bbb-8f0b-52d67396be5a
+* Id: 9148131a-90f6-588a-bea4-c0397dbc554b
+* External Id: solution_default_headline_element
 * Type: text
-* Required: false
+* Required: true
     */
                 readonly headline: Elements.TextElement;
 
@@ -53,9 +56,10 @@ export type SolutionType = IContentItem<
     * Introduction
     *
     * Codename: introduction
-* Id: 80921be4-e2b8-4dbf-bcb8-d54a61890fc2
+* Id: ec1fba9b-f3ed-5653-ac01-9815dca28b61
+* External Id: solution_default_introduction_element
 * Type: text
-* Required: false
+* Required: true
     */
                 readonly introduction: Elements.TextElement;
 
@@ -63,23 +67,37 @@ export type SolutionType = IContentItem<
     * Image
     *
     * Codename: image
-* Id: 3e59d42a-3a57-49c4-8e57-51b323ac03c8
+* Id: 481aa452-c113-5bb1-ae61-21b112bd0841
+* External Id: solution_default_image_element
 * Type: asset
-* Required: false
+* Required: true
     */
-                readonly image: Elements.AssetsElement;}, 
+                readonly image: Elements.AssetsElement;
+
+/*
+    * Content Channel
+    *
+    * Codename: content_channel
+* Id: 88732f76-1922-5714-ab79-81a5412938e8
+* External Id: solution_content_channel_element
+* Type: taxonomy
+* Required: false
+* Taxonomy: content_channel
+    */
+                readonly content_channel: Elements.TaxonomyElement<ContentChannelTaxonomyTermCodenames, ContentChannelTaxonomyCodename>;}, 
 SolutionTypeCodename, LanguageCodenames, CollectionCodenames, WorkflowCodenames, WorkflowStepCodenames>
 
 /*
 * Type representing all available element codenames for Solution
 */
-export type SolutionTypeElementCodenames = 'headline' | 'introduction' | 'image';;
+export type SolutionTypeElementCodenames = 'headline' | 'introduction' | 'image' | 'content_channel';;
 
 /*
     * Type guard for Solution
     *
-    * Id: cfe09735-6b00-4b8a-b2f4-07b70603a82f
+    * Id: 38f94bc7-66ee-5c66-8402-15eb237d9835
 * Codename: solution
+* External Id: solution
     */
 export function isSolutionType(item: IContentItem | undefined | null): item is SolutionType {
                 return item?.system.type === ('solution' satisfies SolutionTypeCodename);

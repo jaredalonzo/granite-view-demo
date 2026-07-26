@@ -5,7 +5,7 @@
  *
  * -------------------------------------------------------------------------------
  *
- * Project: Kontent.ai Kickstart
+ * Project: Granite View Group: Demo
  * Environment: Production
  * Id: 8e2b3719-35c5-0076-37e5-0358199f9a11
  *
@@ -20,6 +20,10 @@ import type {
 	WorkflowCodenames,
 	WorkflowStepCodenames,
 } from "../system/workflows.generated.ts";
+import type {
+	ContentChannelTaxonomyCodename,
+	ContentChannelTaxonomyTermCodenames,
+} from "../taxonomies/content-channel.generated.ts";
 
 /*
  * Type representing codename of 'Article' type
@@ -104,6 +108,65 @@ export type ArticleType = IContentItem<
 		 * Required: true
 		 */
 		readonly publish_date: Elements.DateTimeElement;
+
+		/*
+		 * Content Channel
+		 *
+		 * Codename: content_channel
+		 * Id: 85e12260-9a9c-5904-964d-042a065f4ec8
+		 * External Id: article_content_channel_element
+		 * Type: taxonomy
+		 * Required: false
+		 * Taxonomy: content_channel
+		 */
+		readonly content_channel: Elements.TaxonomyElement<
+			ContentChannelTaxonomyTermCodenames,
+			ContentChannelTaxonomyCodename
+		>;
+
+		/*
+		 * Effective Date
+		 *
+		 * Codename: effective_date
+		 * Id: d72ab371-3439-53ac-980c-bb751bbbbddc
+		 * External Id: article_effective_date_element
+		 * Type: date_time
+		 * Required: false
+		 */
+		readonly effective_date: Elements.DateTimeElement;
+
+		/*
+		 * Version
+		 *
+		 * Codename: version
+		 * Id: be422ec2-ce27-5661-8b98-bd1c0914201e
+		 * External Id: article_version_element
+		 * Type: text
+		 * Required: false
+		 */
+		readonly version: Elements.TextElement;
+
+		/*
+		 * Approved By
+		 *
+		 * Codename: approved_by
+		 * Id: 02963ea2-5934-5d65-bbbd-e932ea6fa545
+		 * External Id: article_approved_by_element
+		 * Type: text
+		 * Required: false
+		 */
+		readonly approved_by: Elements.TextElement;
+
+		/*
+		 * Disclosure ID
+		 *
+		 * Codename: disclosure_id
+		 * Id: 95b099d2-c5f3-50fc-ad91-19a31f1f679c
+		 * External Id: article_disclosure_id_element
+		 * Type: text
+		 * Required: false
+		 */
+		readonly disclosure_id: Elements.TextElement;
 	},
 	ArticleTypeCodename,
 	LanguageCodenames,
@@ -120,7 +183,12 @@ export type ArticleTypeElementCodenames =
 	| "introduction"
 	| "image"
 	| "body_copy"
-	| "publish_date";
+	| "publish_date"
+	| "content_channel"
+	| "effective_date"
+	| "version"
+	| "approved_by"
+	| "disclosure_id";
 
 /*
  * Type guard for Article

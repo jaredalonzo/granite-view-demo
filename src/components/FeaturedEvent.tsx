@@ -34,7 +34,7 @@ const FeaturedEvent: FC<FeaturedEventProps> = ({ event }) => {
               link={eventLink}
               typeCodename={"event"}
             >
-              <h2 className="text-center xl:text-left text-5xl font-semibold text-burgundy">
+              <h2 className="text-center xl:text-left text-5xl font-semibold text-primary">
                 {event.elements.name?.value}
               </h2>
             </RenderElement>
@@ -56,8 +56,8 @@ const FeaturedEvent: FC<FeaturedEventProps> = ({ event }) => {
               </p>
             </RenderElement>
             <div className="flex mt-6 gap-2 justify-center xl:justify-normal">
-              {event.elements.event_type?.value.map(t => createTag(t.name.toUpperCase()))}
-              {event.elements.event_topic?.value.map(t => createTag(t.name.toUpperCase()))}
+              {event.elements.event_format?.value.map(t => createTag(t.name.toUpperCase()))}
+              {event.elements.market_topic?.value.map(t => createTag(t.name.toUpperCase()))}
             </div>
             <RenderElement
               element={event.elements.description}
@@ -77,7 +77,7 @@ const FeaturedEvent: FC<FeaturedEventProps> = ({ event }) => {
             </RenderElement>
           </div>
           {event.elements.description?.value !== "<p><br></p>" && (
-            <a href="#" className="text-center xl:text-left text-burgundy text-xl mt-6 font-semibold underline">
+            <a href="#" className="text-center xl:text-left text-accent text-xl mt-6 font-semibold underline">
               Read more
             </a>
           )}

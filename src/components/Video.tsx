@@ -18,7 +18,7 @@ const Video: FC<VideoProps> = ({ video }) => {
         typeCodename={"video"}
         link={videoLink}
       >
-        <h2 className="text-azure text-[40px] md:text-[64px] leading-[54px] w-2/4 text-center">
+        <h2 className="text-primary font-serif text-[40px] md:text-[64px] leading-[54px] w-2/4 text-center">
           {video.elements.headline?.value}
         </h2>
       </RenderElement>
