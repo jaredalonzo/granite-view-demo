@@ -13,7 +13,7 @@ const SiteSwitcher: FC = () => {
   return (
     <div className="w-full bg-primary text-white">
       <div className="container flex flex-col sm:flex-row items-center justify-between gap-2 py-2 text-sm">
-        <span className="font-semibold opacity-80">Demo · one Kontent.ai source, four sites</span>
+        <span className="font-semibold opacity-80">Demo · Kontent.ai | Granite View Group Inc.</span>
         <label className="flex items-center gap-2">
           <span className="uppercase text-xs tracking-wide opacity-70">Site</span>
           <select
