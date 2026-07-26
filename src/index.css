@@ -6,6 +6,9 @@
  * Per-site theme tokens. The active site is stamped onto <html data-site="..."> (see
  * src/components/Layout.tsx and src/main.tsx), which selects one of these blocks. Colors are
  * space-separated RGB channels so Tailwind's /<alpha-value> opacity modifiers work.
+ *
+ * --color-alt-a / --color-alt-b are the two-tone pair the service-line sections alternate
+ * between (e.g. Public Web = blue + gold, Regulated Docs = navy + red).
  */
 
 :root,
@@ -15,6 +18,8 @@
   --color-secondary: 19 49 92;    /* slate  */
   --color-muted: 141 169 196;     /* steel  */
   --color-canvas: 244 246 249;    /* off-white */
+  --color-alt-a: 11 37 69;        /* blue */
+  --color-alt-b: 201 162 75;      /* gold */
   --font-display: "Lora", Georgia, serif;
   --font-body: "Source Sans 3", Arial, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
@@ -27,6 +32,8 @@
   --color-secondary: 51 65 85;
   --color-muted: 148 163 184;
   --color-canvas: 248 250 252;
+  --color-alt-a: 30 41 74;        /* indigo */
+  --color-alt-b: 13 148 136;      /* teal */
   --font-display: "Inter", Arial, sans-serif;
   --font-body: "Inter", Arial, sans-serif;
 }
@@ -38,6 +45,8 @@
   --color-secondary: 15 118 110;  /* teal-700 */
   --color-muted: 125 211 252;     /* sky-300 */
   --color-canvas: 240 249 255;    /* sky-50 */
+  --color-alt-a: 22 78 99;        /* cyan */
+  --color-alt-b: 5 150 105;       /* emerald */
   --font-display: "Inter", Arial, sans-serif;
   --font-body: "Inter", Arial, sans-serif;
 }
@@ -49,6 +58,8 @@
   --color-secondary: 55 65 81;    /* gray-700 */
   --color-muted: 156 163 175;     /* gray-400 */
   --color-canvas: 250 250 249;    /* stone-50 */
+  --color-alt-a: 30 58 95;        /* navy blue */
+  --color-alt-b: 153 27 27;       /* red */
   --font-display: "Lora", Georgia, serif;
   --font-body: "Inter", Arial, sans-serif;
 }

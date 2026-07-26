@@ -14,6 +14,8 @@ export default {
       colors: {
         primary: "rgb(var(--color-primary) / <alpha-value>)",
         accent: "rgb(var(--color-accent) / <alpha-value>)",
+        "alt-a": "rgb(var(--color-alt-a) / <alpha-value>)",
+        "alt-b": "rgb(var(--color-alt-b) / <alpha-value>)",
         secondary: "rgb(var(--color-secondary) / <alpha-value>)",
         muted: "rgb(var(--color-muted) / <alpha-value>)",
         canvas: "rgb(var(--color-canvas) / <alpha-value>)",

@@ -13,7 +13,7 @@ type FeaturedContentProps = PropsWithChildren<
 const FeaturedComponentBase: FC<FeaturedContentProps> = ({ type, image, children }) => {
   const img = image?.value[0];
   return (
-    <div className="flex flex-col gap-5 xl:gap-16 xl:flex-row py-5 xl:py-[104px] items-center">
+    <div className="flex flex-col gap-5 xl:gap-16 xl:flex-row py-10 md:py-16 items-center">
       <div className="basis-1/3">
         <RenderElement
           element={image}

@@ -22,9 +22,7 @@ const router = createBrowserRouter([
     element: (
       <QueryClientProvider client={queryClient}>
         <AppContextComponent>
-          <SiteProvider>
-            <LandingPage />
-          </SiteProvider>
+          <LandingPage />
         </AppContextComponent>
       </QueryClientProvider>
     ),
@@ -41,9 +39,7 @@ const router = createBrowserRouter([
           }
         >
           <AppContextComponent>
-            <SiteProvider>
-              <RegulatedDocs />
-            </SiteProvider>
+            <RegulatedDocs />
           </AppContextComponent>
         </Suspense>
       </QueryClientProvider>
@@ -69,9 +65,7 @@ const router = createBrowserRouter([
               }
             >
               <AppContextComponent>
-                <SiteProvider>
-                  <LandingPage />
-                </SiteProvider>
+                <LandingPage />
               </AppContextComponent>
             </Suspense>
           </ErrorBoundary>
@@ -83,6 +77,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <SiteProvider>
+      <RouterProvider router={router} />
+    </SiteProvider>
   </StrictMode>,
 );

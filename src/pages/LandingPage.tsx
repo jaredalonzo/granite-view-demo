@@ -1,7 +1,6 @@
 import { DeliveryError } from "@kontent-ai/delivery-sdk";
 
 import HeroImage from "../components/HeroImage";
-import PageContent from "../components/PageContent";
 import PageSection from "../components/PageSection";
 import "../index.css";
 import { type LandingPageType } from "../model";
@@ -17,6 +16,7 @@ import KontentComponentErrorMessage from "../components/KontentComponentErrorMes
 import Layout from "../components/Layout";
 import { landingPageLink } from "../constants/links";
 import { Link } from "react-router-dom";
+import SolutionList from "../components/SolutionListItem";
 
 const LandingPage: FC = () => {
   const { environmentId, apiKey } = useAppContext();
@@ -119,18 +119,19 @@ const LandingPage: FC = () => {
             </div>
           </PageSection>
         )}
-        <RenderElement
-          element={landingPage.data.elements.body_copy}
-          elementCodename="body_copy"
-          requiredElementType="rich_text"
-          errorMessageClassName="container"
-          typeCodename={"landing_page"}
-          link={landingPageLink}
-        >
-          <PageSection color="bg-white">
-            <PageContent body={landingPage.data.elements.body_copy!} />
-          </PageSection>
-        </RenderElement>
+        <SolutionList />
+        {/* <RenderElement */}
+        {/*   element={landingPage.data.elements.body_copy} */}
+        {/*   elementCodename="body_copy" */}
+        {/*   requiredElementType="rich_text" */}
+        {/*   errorMessageClassName="container" */}
+        {/*   typeCodename={"landing_page"} */}
+        {/*   link={landingPageLink} */}
+        {/* > */}
+        {/*   <PageSection color="bg-white"> */}
+        {/*     <PageContent body={landingPage.data.elements.body_copy!} /> */}
+        {/*   </PageSection> */}
+        {/* </RenderElement> */}
         <RenderElement
           element={landingPage.data.elements.featured_content}
           elementCodename="featured_content"
