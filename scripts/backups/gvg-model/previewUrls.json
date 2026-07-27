@@ -1,1 +1,35 @@
-{}
+{
+  "space_domains": [
+    {
+      "space": {
+        "id": "c18a0f6b-dbd3-4cb4-9457-d36e0166f872"
+      },
+      "domain": "kickstart-git-site-public-web-jared-alonzo-projects.vercel.app"
+    },
+    {
+      "space": {
+        "id": "b85544f8-cecd-465b-abc4-3856cf1d093b"
+      },
+      "domain": "kickstart-git-site-intranet-jared-alonzo-projects.vercel.app"
+    },
+    {
+      "space": {
+        "id": "54392666-3f67-41d8-9c5f-b61f2acc6f1a"
+      },
+      "domain": "kickstart-git-site-regulated-docs-jared-alonzo-projects.vercel.app"
+    }
+  ],
+  "preview_url_patterns": [
+    {
+      "content_type": {
+        "id": "aa610b72-ca00-5ee3-bd30-f5b001b9d64e"
+      },
+      "url_patterns": [
+        {
+          "space": null,
+          "url_pattern": "https://{Space}/"
+        }
+      ]
+    }
+  ]
+}
