@@ -30,6 +30,50 @@
           "url_pattern": "https://{Space}/"
         }
       ]
+    },
+    {
+      "content_type": {
+        "id": "f6ed8120-1902-4bf8-8421-c67087eabcc9"
+      },
+      "url_patterns": [
+        {
+          "space": null,
+          "url_pattern": "https://{Space}/"
+        }
+      ]
+    },
+    {
+      "content_type": {
+        "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+      },
+      "url_patterns": [
+        {
+          "space": null,
+          "url_pattern": "https://{Space}/"
+        }
+      ]
+    },
+    {
+      "content_type": {
+        "id": "38f94bc7-66ee-5c66-8402-15eb237d9835"
+      },
+      "url_patterns": [
+        {
+          "space": null,
+          "url_pattern": "https://{Space}/"
+        }
+      ]
+    },
+    {
+      "content_type": {
+        "id": "6e271ad7-327d-4108-9c66-56e4335f52eb"
+      },
+      "url_patterns": [
+        {
+          "space": null,
+          "url_pattern": "https://{Space}/"
+        }
+      ]
     }
   ]
 }
