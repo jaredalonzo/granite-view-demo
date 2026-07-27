@@ -5,6 +5,65 @@
         "element": {
           "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc"
         },
+        "value": "GVG Lowers Advisory Fees for 2026"
+      },
+      {
+        "element": {
+          "id": "c3fc1a88-5577-5130-b0aa-b1837c009ba6"
+        },
+        "value": "Effective March 1, standard advisory fees drop to 0.60% across all client tiers."
+      },
+      {
+        "components": [],
+        "element": {
+          "id": "0747fb13-7383-59fe-bf64-2bab6d384279"
+        },
+        "value": "<p>Granite View Group is reducing standard advisory fees to 0.60% for 2026, effective March 1. The change applies across institutional, commercial, and individual client tiers.</p>"
+      },
+      {
+        "display_timezone": "America/New_York",
+        "element": {
+          "id": "abdf08ea-55f0-5460-96e0-391f7471c7e9"
+        },
+        "value": "2026-07-20T00:00:00Z"
+      }
+    ],
+    "workflow_step": {
+      "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+    },
+    "workflow": {
+      "workflow_identifier": {
+        "id": "00000000-0000-0000-0000-000000000000"
+      },
+      "step_identifier": {
+        "id": "eee6db3b-545a-4785-8e86-e3772c8756f9"
+      }
+    },
+    "contributors": [],
+    "due_date": {
+      "value": null
+    },
+    "note": null,
+    "schedule": {
+      "publish_time": null,
+      "publish_display_timezone": null,
+      "unpublish_time": null,
+      "unpublish_display_timezone": null
+    },
+    "item": {
+      "id": "cf91ef1d-5916-5372-a2ab-7b805fbb12f5"
+    },
+    "language": {
+      "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
+    "elements": [
+      {
+        "element": {
+          "id": "ad06c69a-9ccd-5d8c-b2de-b6a9f83d00fc"
+        },
         "value": "2026 Market Outlook: Navigating Rate Volatility"
       },
       {
@@ -85,7 +144,7 @@
         },
         "value": [
           {
-            "id": "4e2b6d26-df7a-58fc-a6ec-e2f4c1b63c08"
+            "id": "cf91ef1d-5916-5372-a2ab-7b805fbb12f5"
           }
         ]
       }
@@ -296,7 +355,7 @@
         },
         "value": [
           {
-            "id": "551e753f-daaa-5365-81ff-35f9c6d1ae4b"
+            "id": "cf91ef1d-5916-5372-a2ab-7b805fbb12f5"
           }
         ]
       }
@@ -507,7 +566,7 @@
         },
         "value": [
           {
-            "id": "3279b7c5-d566-5bbb-a26a-569a907c59f1"
+            "id": "cf91ef1d-5916-5372-a2ab-7b805fbb12f5"
           }
         ]
       }

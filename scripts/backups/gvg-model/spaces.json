@@ -27,14 +27,14 @@
   },
   {
     "id": "54392666-3f67-41d8-9c5f-b61f2acc6f1a",
-    "codename": "regulated_docs_space",
-    "name": "Regulated Docs",
+    "codename": "knowledge_base_space",
+    "name": "Knowledge Base",
     "web_spotlight_root_item": {
-      "id": "c8bc4b0d-ad71-55dd-8d5b-73d471521f8b"
+      "id": "fb761da3-522f-571a-b73f-0b12fefb5eee"
     },
     "collections": [
       {
-        "id": "e3524d46-ede3-4b7a-895c-dd0fb7ba182d"
+        "id": "1de466b8-c25e-4aea-aa83-18479d71f080"
       }
     ]
   }

@@ -1,5 +1,20 @@
 [
   {
+    "id": "cf91ef1d-5916-5372-a2ab-7b805fbb12f5",
+    "name": "GVG Lowers Advisory Fees for 2026",
+    "codename": "art_fee_reduction",
+    "type": {
+      "id": "d622fc28-5202-511a-9dbf-a3ee363b6c7c"
+    },
+    "collection": {
+      "id": "7620423e-c69e-490b-81f4-2f19a6af093c"
+    },
+    "spaces": [],
+    "sitemap_locations": [],
+    "external_id": "art_fee_reduction",
+    "last_modified": "2026-07-25T00:00:00.0000000Z"
+  },
+  {
     "id": "4e2b6d26-df7a-58fc-a6ec-e2f4c1b63c08",
     "name": "2026 Market Outlook: Navigating Rate Volatility",
     "codename": "art_market_outlook",
