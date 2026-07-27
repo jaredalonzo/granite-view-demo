@@ -593,17 +593,21 @@
         "codename": "title"
       },
       {
-        "maximum_text_length": null,
-        "validation_regex": null,
-        "default": null,
+        "type": "url_slug",
         "name": "Slug",
+        "codename": "slug",
+        "external_id": "page_slug_element",
+        "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f",
         "guidelines": null,
         "is_required": false,
         "is_non_localizable": false,
-        "type": "text",
-        "external_id": "page_slug_element",
-        "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f",
-        "codename": "slug"
+        "validation_regex": null,
+        "depends_on": {
+          "element": {
+            "id": "2b8effca-e300-471e-98fd-e294ca62af43"
+          },
+          "snippet": null
+        }
       },
       {
         "maximum_text_length": null,

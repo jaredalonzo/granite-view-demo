@@ -63,10 +63,10 @@ export type PageType = IContentItem<
 		 * Codename: slug
 		 * Id: f87ab123-d357-5066-a438-b454c4177a0b
 		 * External Id: page_slug_element
-		 * Type: text
+		 * Type: url_slug
 		 * Required: false
 		 */
-		readonly slug: Elements.TextElement;
+		readonly slug: Elements.UrlSlugElement;
 
 		/*
 		 * Body

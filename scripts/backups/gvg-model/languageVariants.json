@@ -939,7 +939,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "solutions"
+        "value": "solutions",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1036,7 +1037,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "insights"
+        "value": "insights",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1133,7 +1135,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "investor-relations"
+        "value": "investor-relations",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1230,7 +1233,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "about"
+        "value": "about",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1327,7 +1331,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "contact"
+        "value": "contact",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1536,7 +1541,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "desk-tools"
+        "value": "desk-tools",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1633,7 +1639,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "policies"
+        "value": "policies",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1730,7 +1737,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "directory"
+        "value": "directory",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1827,7 +1835,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "help"
+        "value": "help",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -1991,7 +2000,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "getting-started"
+        "value": "getting-started",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2088,7 +2098,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "trading-platform"
+        "value": "trading-platform",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2185,7 +2196,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "payments"
+        "value": "payments",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2282,7 +2294,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "account"
+        "value": "account",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2379,7 +2392,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "security"
+        "value": "security",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2543,7 +2557,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "disclosures"
+        "value": "disclosures",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2640,7 +2655,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "policies"
+        "value": "policies",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2737,7 +2753,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "regulatory-filings"
+        "value": "regulatory-filings",
+        "mode": "custom"
       },
       {
         "components": [],
@@ -2834,7 +2851,8 @@
         "element": {
           "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f"
         },
-        "value": "archive"
+        "value": "archive",
+        "mode": "custom"
       },
       {
         "components": [],

@@ -38,7 +38,7 @@
       "url_patterns": [
         {
           "space": null,
-          "url_pattern": "https://{Space}/"
+          "url_pattern": "https://{Space}/{URLslug}"
         }
       ]
     },
