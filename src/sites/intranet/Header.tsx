@@ -65,8 +65,8 @@ const IntranetHeader: FC = () => {
             const active = index === 0;
             return (
               <li key={item.title}>
-                <a
-                  href="#"
+                <Link
+                  to={item.url}
                   aria-current={active ? "page" : undefined}
                   className={`block border-b-2 px-3 py-2.5 uppercase tracking-wide transition-colors ${
                     active
@@ -75,7 +75,7 @@ const IntranetHeader: FC = () => {
                   }`}
                 >
                   {item.title}
-                </a>
+                </Link>
               </li>
             );
           })}

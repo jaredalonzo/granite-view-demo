@@ -570,5 +570,64 @@
         "codename": "subpages"
       }
     ]
+  },
+  {
+    "id": "f6ed8120-1902-4bf8-8421-c67087eabcc9",
+    "codename": "page",
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "external_id": "page",
+    "name": "Page",
+    "content_groups": [],
+    "elements": [
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Title",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "page_title_element",
+        "id": "2b8effca-e300-471e-98fd-e294ca62af43",
+        "codename": "title"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Slug",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "page_slug_element",
+        "id": "bd5b3250-aa0f-4a61-84a6-d92e9c35869f",
+        "codename": "slug"
+      },
+      {
+        "maximum_text_length": null,
+        "maximum_image_size": null,
+        "allowed_content_types": [],
+        "allowed_item_link_types": [],
+        "image_width_limit": null,
+        "image_height_limit": null,
+        "allowed_image_types": "any",
+        "allowed_blocks": [],
+        "allowed_formatting": [],
+        "allowed_text_blocks": [],
+        "allowed_table_blocks": [],
+        "allowed_table_formatting": [],
+        "allowed_table_text_blocks": [],
+        "name": "Body",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "rich_text",
+        "external_id": "page_body_element",
+        "id": "e025f8ed-2a69-499d-8864-c587e36399b3",
+        "codename": "body"
+      }
+    ]
   }
 ]

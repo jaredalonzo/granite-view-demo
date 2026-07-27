@@ -47,12 +47,12 @@ const RegulatedDocsHeader: FC = () => {
               <ul className="flex flex-wrap gap-x-8 gap-y-2 font-sans text-sm uppercase tracking-[0.15em] text-secondary">
                 {items.map(item => (
                   <li key={item.title}>
-                    <a
-                      href="#"
+                    <Link
+                      to={item.url}
                       className="border-b border-transparent pb-1 transition-colors hover:border-accent/60 hover:text-primary"
                     >
                       {item.title}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

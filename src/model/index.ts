@@ -34,6 +34,7 @@ export * from "./types/article.generated.ts";
 export * from "./types/event.generated.ts";
 export * from "./types/landing-page.generated.ts";
 export * from "./types/navigation-item.generated.ts";
+export * from "./types/page.generated.ts";
 export * from "./types/solution.generated.ts";
 export * from "./types/video.generated.ts";
 export * from "./workflows/default-workflow.generated.ts";

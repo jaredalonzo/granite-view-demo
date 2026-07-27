@@ -49,12 +49,12 @@ const KnowledgeBaseHeader: FC = () => {
           <ul className="flex flex-wrap justify-center gap-2 pt-2">
             {items.map(item => (
               <li key={item.title}>
-                <a
-                  href="#"
+                <Link
+                  to={item.url}
                   className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white/90 transition-colors hover:bg-accent hover:text-white"
                 >
                   {item.title}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

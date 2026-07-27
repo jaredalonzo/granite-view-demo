@@ -41,6 +41,7 @@ export const elementCodenames = [
 	"disclosure_id",
 	"slug",
 	"subpages",
+	"body",
 ] as const;
 
 /*
