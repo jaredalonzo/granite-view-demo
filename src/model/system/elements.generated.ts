@@ -39,6 +39,8 @@ export const elementCodenames = [
 	"version",
 	"approved_by",
 	"disclosure_id",
+	"slug",
+	"subpages",
 ] as const;
 
 /*

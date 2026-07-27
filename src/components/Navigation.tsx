@@ -1,16 +1,17 @@
 import { FC } from "react";
+import { useSiteNavigation } from "../hooks/useSiteNavigation";
 
 const Navigation: FC = () => {
-  const createMenuLink = (name: string) => (
-    <li key={name}>
-      <a href="#" className="text-xl leading-5 text-gray w-fit block hover:text-accent">{name}</a>
-    </li>
-  );
+  const items = useSiteNavigation();
 
   return (
     <nav>
       <menu className="flex flex-col lg:flex-row gap-5 lg:gap-[60px] items-center list-none">
-        {["Solutions", "Insights", "Investor Relations", "About", "Contact"].map(createMenuLink)}
+        {items.map(item => (
+          <li key={item.title}>
+            <a href="#" className="text-xl leading-5 text-gray w-fit block hover:text-accent">{item.title}</a>
+          </li>
+        ))}
       </menu>
     </nav>
   );

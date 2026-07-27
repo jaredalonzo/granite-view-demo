@@ -12,24 +12,24 @@
  * -------------------------------------------------------------------------------
  */
 
-/*
- * Array of all language codenames
- */
-export const languageCodenames = ["default", "f685268"] as const;
+import type { LanguageCodenames } from "../system/languages.generated.ts";
 
 /*
- * Type representing all language codenames
+ * Type representing codename of 'f685268' language
  */
-export type LanguageCodenames = (typeof languageCodenames)[number];
+export type F685268LanguageCodename = keyof Pick<
+	Record<LanguageCodenames, null>,
+	"f685268"
+>;
 
 /*
- * Typeguard for language codename
+ * Typeguard for codename of 'f685268' language
  */
-export function isLanguageCodename(
+export function isF685268LanguageCodename(
 	value: string | undefined | null,
-): value is LanguageCodenames {
+): value is F685268LanguageCodename {
 	return (
 		typeof value === "string" &&
-		(languageCodenames as readonly string[]).includes(value)
+		value === ("f685268" satisfies F685268LanguageCodename)
 	);
 }

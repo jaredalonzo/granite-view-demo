@@ -517,5 +517,58 @@
         "codename": "disclosure_id"
       }
     ]
+  },
+  {
+    "id": "6e271ad7-327d-4108-9c66-56e4335f52eb",
+    "codename": "navigation_item",
+    "last_modified": "2026-07-25T00:00:00.0000000Z",
+    "external_id": "navigation_item",
+    "name": "Navigation Item",
+    "content_groups": [],
+    "elements": [
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Title",
+        "guidelines": null,
+        "is_required": true,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "navigation_item_title_element",
+        "id": "b6198c4c-01d1-4ea1-a5fd-c11010180a9a",
+        "codename": "title"
+      },
+      {
+        "maximum_text_length": null,
+        "validation_regex": null,
+        "default": null,
+        "name": "Slug",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "text",
+        "external_id": "navigation_item_slug_element",
+        "id": "c10c491b-9a01-4ba1-b6ad-52fd0c63a96d",
+        "codename": "slug"
+      },
+      {
+        "item_count_limit": null,
+        "allowed_content_types": [
+          {
+            "id": "6e271ad7-327d-4108-9c66-56e4335f52eb"
+          }
+        ],
+        "default": null,
+        "name": "Subpages",
+        "guidelines": null,
+        "is_required": false,
+        "is_non_localizable": false,
+        "type": "modular_content",
+        "external_id": "navigation_item_subpages_element",
+        "id": "2bc71807-d02b-4a13-85b0-5347a6389ff5",
+        "codename": "subpages"
+      }
+    ]
   }
 ]

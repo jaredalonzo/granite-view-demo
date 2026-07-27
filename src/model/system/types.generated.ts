@@ -15,6 +15,7 @@
 import type { ArticleType } from "../types/article.generated.ts";
 import type { EventType } from "../types/event.generated.ts";
 import type { LandingPageType } from "../types/landing-page.generated.ts";
+import type { NavigationItemType } from "../types/navigation-item.generated.ts";
 import type { SolutionType } from "../types/solution.generated.ts";
 import type { VideoType } from "../types/video.generated.ts";
 
@@ -27,6 +28,7 @@ export const typeCodenames = [
 	"landing_page",
 	"article",
 	"solution",
+	"navigation_item",
 ] as const;
 
 /*
@@ -54,7 +56,8 @@ export type CoreType =
 	| VideoType
 	| LandingPageType
 	| ArticleType
-	| SolutionType;
+	| SolutionType
+	| NavigationItemType;
 
 /*
  * Type mapping for codename & type. Can be used for type safe access to type based on the codename of type.
@@ -65,6 +68,7 @@ export type CodenameTypeMapping = {
 	readonly landing_page: LandingPageType;
 	readonly article: ArticleType;
 	readonly solution: SolutionType;
+	readonly navigation_item: NavigationItemType;
 };
 
 /*

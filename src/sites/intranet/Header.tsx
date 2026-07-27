@@ -1,26 +1,29 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 import Container from "../../components/Container";
+import { useSiteNavigation } from "../../hooks/useSiteNavigation";
 
 /*
  * Intranet — utilitarian internal employee portal. Compact utility bar (search + user chip)
  * over a dense functional navigation bar. All font-sans (Inter via the intranet theme).
  */
-const navItems = ["Home", "Desk Tools", "Policies", "Directory", "Help"] as const;
+const IntranetHeader: FC = () => {
+  const items = useSiteNavigation();
 
-const IntranetHeader: FC = () => (
+  return (
   <header className="font-sans">
     {/* Top utility bar */}
     <div className="bg-primary text-white">
       <Container>
         <div className="flex flex-col gap-3 py-2.5 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex items-center gap-2.5">
+          <Link to="/" className="flex items-center gap-2.5" aria-label="Granite View home">
             <span className="flex h-8 w-8 items-center justify-center rounded bg-accent text-sm font-bold text-white">
               GV
             </span>
             <span className="text-sm font-semibold tracking-tight">
               Granite View <span className="font-normal text-white/60">· Employee Portal</span>
             </span>
-          </div>
+          </Link>
 
           <div className="flex items-center gap-3">
             <label className="relative block">
@@ -58,10 +61,10 @@ const IntranetHeader: FC = () => (
     <nav className="bg-white border-b border-muted/40">
       <Container>
         <ul className="flex flex-wrap items-center gap-x-1 gap-y-1 py-1 text-sm font-medium">
-          {navItems.map((item, index) => {
+          {items.map((item, index) => {
             const active = index === 0;
             return (
-              <li key={item}>
+              <li key={item.title}>
                 <a
                   href="#"
                   aria-current={active ? "page" : undefined}
@@ -71,7 +74,7 @@ const IntranetHeader: FC = () => (
                       : "border-transparent text-secondary hover:text-accent"
                   }`}
                 >
-                  {item}
+                  {item.title}
                 </a>
               </li>
             );
@@ -80,6 +83,7 @@ const IntranetHeader: FC = () => (
       </Container>
     </nav>
   </header>
-);
+  );
+};
 
 export default IntranetHeader;
