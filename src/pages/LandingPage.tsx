@@ -17,6 +17,7 @@ import Layout from "../components/Layout";
 import { landingPageLink } from "../constants/links";
 import { Link } from "react-router-dom";
 import SolutionList from "../components/SolutionListItem";
+import KnowledgeBaseSearch from "../components/KnowledgeBaseSearch";
 
 const LandingPage: FC = () => {
   const { environmentId, apiKey } = useAppContext();
@@ -95,15 +96,14 @@ const LandingPage: FC = () => {
   return (
     <Layout>
       <div className="flex-grow">
-        <PageSection color="bg-canvas">
-          <HeroImage
-            data={{
-              headline: landingPage.data.elements.headline,
-              subheadline: landingPage.data.elements.subheadline,
-              heroImage: landingPage.data.elements.hero_image,
-            }}
-          />
-        </PageSection>
+        <HeroImage
+          data={{
+            headline: landingPage.data.elements.headline,
+            subheadline: landingPage.data.elements.subheadline,
+            heroImage: landingPage.data.elements.hero_image,
+          }}
+          overlay={site.key === "knowledge_base" ? <KnowledgeBaseSearch /> : undefined}
+        />
         {site.collection === "regulated_docs" && (
           <PageSection color="bg-primary">
             <div className="py-10 flex flex-col md:flex-row items-center justify-between gap-4">
